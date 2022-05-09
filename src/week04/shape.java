@@ -8,11 +8,11 @@ public class shape {
 	Scanner scan = new Scanner(System.in);
 	
 	void input() {
-		
+		System.err.println("	!HOSGELDINIZ!");
 		
 		while (true) {
 			
-	try {
+	try {																	// harf girişi kontrolü
 		
 		System.out.println("Lutfen hesaplamak istediginiz seklin (en fazla 4 kenar) "
 				+ "kenar uzunluklarini giriniz (-1 Cikis) ");
